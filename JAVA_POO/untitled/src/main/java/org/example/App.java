@@ -24,7 +24,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Auteur auteur1 = new Auteur("Jon", "Johnson");
+        /*Auteur auteur1 = new Auteur("Jon", "Johnson");
         Editeur editeur1 = new Editeur("Publisher_1");
 
         Book[] livres = new Book[] {
@@ -45,7 +45,7 @@ public class App
 
         for (Book book : bookService.filterBooksByYears(1993,livres)) {
             System.out.println(book.getName());
-        }
+        }*/
 
     }
 }
