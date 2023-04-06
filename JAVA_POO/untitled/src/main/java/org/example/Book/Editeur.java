@@ -35,4 +35,12 @@ public class Editeur {
     public void setId(int id) {
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "Editeur{" +
+                "editeurName='" + editeurName + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }

@@ -1,5 +1,7 @@
 package org.example.Book;
 
+import java.util.Arrays;
+
 public class Book {
 
     private static int nb;
@@ -96,4 +98,17 @@ public class Book {
         this.coverType = coverType;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", auteurs=" + Arrays.toString(auteurs) +
+                ", editeur=" + editeur +
+                ", publishingYears=" + publishingYears +
+                ", amoutOfPages=" + amoutOfPages +
+                ", prix=" + prix +
+                ", coverType=" + coverType +
+                '}';
+    }
 }
