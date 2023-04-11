@@ -1,6 +1,8 @@
 package org.example;
 
 import org.example.Book.*;
+import org.example.Collections.CercleDemo;
+import org.example.Collections.ListDemo;
 import org.example.Enum.EnumUn;
 import org.example.Exercice1.Chaises;
 import org.example.Exercice3.Student;
@@ -47,5 +49,8 @@ public class App
             System.out.println(book.getName());
         }*/
 
+        //ListDemo.main();
+
+        CercleDemo.main();
     }
 }

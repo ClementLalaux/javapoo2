@@ -19,7 +19,7 @@ public class BookService {
     }
 
     public List<Book> filterBooksByPublisher(Editeur editeur, Book[] books){
-        List<Book> retourPublisher = new ArrayList<Book>();
+        List<Book> retourPublisher = new ArrayList<>();
 
         for (Book book: books) {
             if (book.getEditeur() == editeur) {
