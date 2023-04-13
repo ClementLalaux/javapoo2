@@ -13,8 +13,11 @@ import org.example.Exercice6.Person;
 import org.example.Recursive.factoriel;
 import org.example.Recursive.factorielDeux;
 import org.example.Recursive.multiplie;
+import org.example.Stream.Trader;
+import org.example.Stream.Transaction;
 
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Hello world!
@@ -51,6 +54,67 @@ public class App
 
         //ListDemo.main();
 
-        CercleDemo.main();
+        //CercleDemo.main();
+
+        Trader abdallah = new Trader("Abdallah","Cambridge");
+        Trader audrey = new Trader("Audrey","Milan");
+        Trader corentin = new Trader("Corentin","Cambridge");
+        Trader tristan = new Trader("Tristan","Cambridge");
+
+        List<Transaction> transactions = Arrays.asList(
+                new Transaction(abdallah,2011,500),
+                new Transaction(abdallah,2012,300),
+                new Transaction(corentin,2012,710),
+                new Transaction(corentin,2012,700),
+                new Transaction(audrey,2012,1000),
+                new Transaction(audrey,2011,400),
+                new Transaction(tristan,2012,950),
+                new Transaction(tristan,2022,900)
+        );
+
+        transactions.stream().filter(t -> t.getYear() == 2011).sorted(new Comparator<Transaction>() {
+            @Override
+            public int compare(Transaction o1, Transaction o2) {
+                return o1.getValue()-o2.getValue();
+            }
+        }).forEach(System.out::println);
+
+        List<String> villes = new ArrayList<>();
+
+        villes = transactions.stream()
+                .map(transaction -> transaction.getTrader().getCity())
+                .distinct().collect(Collectors.toList());
+
+        transactions.stream().map(transaction -> transaction.getTrader()
+                .getName())
+                .distinct()
+                .sorted()
+                .forEach(System.out::println);
+
+        System.out.println(villes.stream().anyMatch(v-> v == "Milan"));
+
+        System.out.println(transactions.stream().map(e->e.getValue()).max(Integer::compare).get());
+
+        System.out.println("------------------------");
+
+        List<Trader> traderCambridge = new ArrayList<>();
+
+        traderCambridge = transactions.stream().filter(transaction -> transaction.getTrader().getCity() == "Cambridge")
+                .map(v->v.getTrader()).sorted(new Comparator<Trader>() {
+                    @Override
+                    public int compare(Trader o1, Trader o2) {
+                        return o1.getName().compareTo(o2.getName());
+                    }
+                }).distinct().collect(Collectors.toList());
+
+        System.out.println(traderCambridge);
+
+        List<Integer> listTransactionCambrige = new ArrayList<>();
+
+        listTransactionCambrige = transactions.stream().filter(transaction -> transaction.getTrader().getCity() == "Cambridge")
+                .map(v-> v.getValue()).collect(Collectors.toList());
+
+        System.out.println(transactions.stream().map(transaction -> transaction.getValue()).min(Integer::compare));
+
     }
 }
