@@ -1,12 +1,15 @@
 package org.example.Book;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class BookService {
     
     public List<Book> filterBooksByAuthor(Auteur author, Book[] books){
         List<Book> retour = new ArrayList<Book>();
+
 
         for (Book book: books) {
             for (int i = 0; i < book.getAuteurs().length; i++) {
@@ -21,22 +24,16 @@ public class BookService {
     public List<Book> filterBooksByPublisher(Editeur editeur, Book[] books){
         List<Book> retourPublisher = new ArrayList<>();
 
-        for (Book book: books) {
-            if (book.getEditeur() == editeur) {
-                retourPublisher.add(book);
-            }
-        }
+        retourPublisher = Arrays.stream(books).filter(book -> book.getEditeur() == editeur).collect(Collectors.toList());
+
         return retourPublisher;
     }
 
     public List<Book> filterBooksByYears(int years, Book[] books){
         List<Book> retourYears = new ArrayList<Book>();
 
-        for (Book book: books) {
-            if (book.getPublishingYears() >= years) {
-                retourYears.add(book);
-            }
-        }
+        retourYears = Arrays.stream(books).filter(book -> book.getPublishingYears() >= years).collect(Collectors.toList());
+
         return retourYears;
     }
     
