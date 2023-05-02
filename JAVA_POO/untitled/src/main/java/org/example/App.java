@@ -222,6 +222,5 @@ public class App
                     }
                 }).collect(Collectors.toList());
 
-
     }
 }
