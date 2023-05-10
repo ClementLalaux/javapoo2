@@ -50,6 +50,24 @@ public class VoitureDAO extends BaseDAO<Voiture> {
     }
 
     @Override
+    public Voiture getById(int id) throws SQLException {
+        Voiture voiture = null;
+        request = "SELECT * FROM voiture where id = ?";
+        statement = _connection.prepareStatement(request);
+        statement.setInt(1, id);
+        resultSet = statement.executeQuery();
+        if(resultSet.next()) {
+            voiture = new Voiture(resultSet.getInt("id"),
+                    resultSet.getString("nom"),
+                    resultSet.getInt("annee"),
+                    resultSet.getInt("puissance_cheveaux"),
+                    resultSet.getFloat("prix")
+            );
+        }
+        return voiture;
+    }
+
+    @Override
     public boolean update(Voiture element) throws ExecutionControl.NotImplementedException, SQLException {
         request = "UPDATE voiture set prix = ? where id = ?";
         statement = _connection.prepareStatement(request);

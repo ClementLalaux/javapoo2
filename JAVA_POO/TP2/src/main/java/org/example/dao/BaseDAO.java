@@ -29,7 +29,9 @@ public abstract class BaseDAO<T> {
 
     public abstract boolean save(T element) throws ExecutionControl.NotImplementedException, SQLException;
     public abstract List<T> getAll() throws ExecutionControl.NotImplementedException, SQLException;
+    public abstract T getById(int id) throws ExecutionControl.NotImplementedException, SQLException;
     public abstract boolean update(T element) throws ExecutionControl.NotImplementedException, SQLException;
     public abstract boolean delete(T element) throws ExecutionControl.NotImplementedException, SQLException;
+
 
 }

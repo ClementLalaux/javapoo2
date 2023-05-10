@@ -25,8 +25,8 @@ public class PersonneDAO extends BaseDAO<Personne> {
         statement.setInt(3, element.getAge());
         int nbRow = statement.executeUpdate();
         resultSet = statement.getGeneratedKeys();
-        if(resultSet.next()) {
-            element.setId(resultSet.getInt(1)) ;
+        if (resultSet.next()) {
+            element.setId(resultSet.getInt(1));
         }
         return nbRow == 1;
     }
@@ -37,7 +37,7 @@ public class PersonneDAO extends BaseDAO<Personne> {
         request = "SELECT * FROM personne";
         statement = _connection.prepareStatement(request);
         resultSet = statement.executeQuery();
-        if(resultSet.next()) {
+        if (resultSet.next()) {
             Personne personne = new Personne(resultSet.getInt("id"),
                     resultSet.getString("nom"),
                     resultSet.getString("prenom"),
@@ -49,10 +49,27 @@ public class PersonneDAO extends BaseDAO<Personne> {
     }
 
     @Override
-    public boolean update(Personne element) throws ExecutionControl.NotImplementedException, SQLException {
-        request = "UPDATE voiture set prix = ? where id = ?";
+    public Personne getById(int id) throws SQLException {
+        Personne personne = null;
+        request = "SELECT * FROM personne where id = ?";
         statement = _connection.prepareStatement(request);
-        statement.setFloat(1, element.getPrix());
+        statement.setInt(1, id);
+        resultSet = statement.executeQuery();
+        if(resultSet.next()) {
+            personne = new Personne(resultSet.getInt("id"),
+                    resultSet.getString("nom"),
+                    resultSet.getString("prenom"),
+                    resultSet.getInt("age")
+            );
+        }
+        return personne;
+    }
+
+    @Override
+    public boolean update(Personne element) throws ExecutionControl.NotImplementedException, SQLException {
+        request = "UPDATE personne set nom = ? where id = ?";
+        statement = _connection.prepareStatement(request);
+        statement.setString(1, element.getNom());
         statement.setInt(2, element.getId());
         int nbRow = statement.executeUpdate();
         return nbRow == 1;
@@ -60,9 +77,10 @@ public class PersonneDAO extends BaseDAO<Personne> {
 
     @Override
     public boolean delete(Personne element) throws ExecutionControl.NotImplementedException, SQLException {
-        request = "DELETE FROM voiture where id = ?";
+        request = "DELETE FROM perssone where id = ?";
         statement = _connection.prepareStatement(request);
         statement.setInt(1, element.getId());
         int nbRow = statement.executeUpdate();
         return nbRow == 1;
     }
+}
