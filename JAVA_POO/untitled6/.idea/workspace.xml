@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dd22905-14cb-4da6-b800-4ac51373406e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Correction/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/src/main/java/com/example/correction/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Correction/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/IHM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/entities/Activite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/entities/Adherent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/entities/Centre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/services/ActiviteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/services/AdherentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/java/org/example/services/CentreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ECF/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/Ihm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/com/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/com/ProServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/com/ProduitServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/com/RedirectionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/entities/Produit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/org/example/services/ProduitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/lib/jar_files.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/produit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/produits.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/redirection.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/entity/Administrateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/entity/Equipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/entity/Joueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/entity/Tournoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/entity/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/java/com/example/demo2/repository/UtilisateurRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/lib/jar_files.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/AjoutPatientServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/ConsultationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/PatientServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/PrescriptionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/com/SoinsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/entities/Consultation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/entities/Dossier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/entities/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/entities/Prescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/entities/Soins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/interfaces/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/ConsultationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/DossierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/PatientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/PrescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/services/SoinsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/java/example/util/Definition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/lib/jar_files.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/ajoutPatient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/consultation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/consultationForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/patient.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/patients.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/prescription.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/views/soins.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../patient/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2R99pqw2Ce71R09MgaCpstNVj39" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Administrateur/Desktop/demo_base_test",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.MotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MotTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dd22905-14cb-4da6-b800-4ac51373406e" name="Changes" comment="" />
+      <created>1686651617853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686651617853</updated>
+      <workItem from="1686651618955" duration="2591000" />
+      <workItem from="1686658049519" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
