@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <th:block th:include="fragments/base.html :: head"/>
+</head>
+<body>
+<header th:replace="fragments/base.html :: header"></header>
+
+
+<div class="container">
+  <div class="my-3">
+    <a  th:href="@{/annonce/add}" class="btn btn-primary my-4">Ajouter une annonce</a>
+  </div>
+  <table class="table table-bordered table-striped table-dark text-center">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Titre</th>
+      <th>Description</th>
+      <th>Prix</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="annonce : ${annonces}" >
+      <td th:text="${annonce.id}"></td>
+      <td th:text="${annonce.titre}"></td>
+      <td th:text="${annonce.description}"></td>
+      <td th:text="${annonce.prix}"></td>
+      <td ><a th:href="@{/annonce/edit/{id}(id=${annonce.id})}" class="btn btn-primary mx-2">Edit</a><a class="btn btn-danger mx-2" th:href="@{/annonce/delete/{id}(id=${annonce.id})}">Delete</a></td>
+    </tr>
+    </tbody>
+  </table>
+
+  <form action="" method="post" name="utilisateur">
+
+    <div class="mb-3">
+      <label for="utilisateur" class="form-label">Id de l'utilisateur</label>
+      <input type="text" class="form-control" id="utilisateur" name="utilisateur">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

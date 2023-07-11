@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inscription</title>
+  <th:block th:include="fragments/base.html :: head"/>
+</head>
+<body>
+<header th:replace="fragments/base.html :: header"></header>
+<form th:action="@{/annonce/form-add}"  method="post" enctype="multipart/form-data" th:object="${annonce}">
+  <div class="row m-1">
+
+    <input type="text" name="titre" placeholder="titre" th:field="*{titre}" />
+  </div>
+  <div class="row m-1">
+    <input type="text" name="description" placeholder="description" th:field="*{description}" />
+
+  </div>
+  <div class="row m-1">
+    <input type="number" name="prix" placeholder="prix" th:field="*{prix}"/>
+
+
+  </div>
+  <div class="row m-1">
+    <input type="file" name="images" multiple class="form-control col" />
+  </div>
+  <select  class="form-select" aria-label="Default select example" name="categorie">
+    <div th:each="categorie : ${categories}">
+      <option th:value="${categorie.id}" th:text="${categorie.nom}"></option>
+    </div>
+
+  </select>
+  <div>
+    <button>Valider</button>
+  </div>
+</form>
+</body>
+</html>
